@@ -1,0 +1,7 @@
+keypad_interrupt: keypad {
+	compatible = "tiny4412,keypad_interrupt";
+	tiny4412,keypad1 = <&gpx3 2 GPIO_ACTIVE_HIGH>;
+	tiny4412,keypad2 = <&gpx3 3 GPIO_ACTIVE_HIGH>;
+	tiny4412,keypad3 = <&gpx3 4 GPIO_ACTIVE_HIGH>;
+	tiny4412,keypad4 = <&gpx3 5 GPIO_ACTIVE_HIGH>;
+};
